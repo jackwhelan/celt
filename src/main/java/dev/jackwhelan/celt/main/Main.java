@@ -1,4 +1,4 @@
-package dev.jackwhelan.celt;
+package dev.jackwhelan.celt.main;
 
 import javax.swing.*;
 

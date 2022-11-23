@@ -1,4 +1,4 @@
-package dev.jackwhelan.celt;
+package dev.jackwhelan.celt.main;
 
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
