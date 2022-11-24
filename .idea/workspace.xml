@@ -4,15 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50700616-83c0-4cc8-90cf-80e52f407f01" name="Changes" comment="Added entity and player class.&#10;&#10;Added player sprite and sprite loading for player. Player movement changes sprite accordingly.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/jackwhelan/celt/tile/Tile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/jackwhelan/celt/tile/TileManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/map/map1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/terrain/terrain_brick.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/terrain/terrain_grass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/terrain/terrain_water.png" afterDir="false" />
+    <list default="true" id="50700616-83c0-4cc8-90cf-80e52f407f01" name="Changes" comment="Added Tile class and TileManager&#10;&#10;Added terrain tiles, tile drawing and a basic text based map importing system.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/jackwhelan/celt/tile/Terrain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/map/map2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/terrain/terrain_dirt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/terrain/terrain_sand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/terrain/terrain_tree.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/jackwhelan/celt/entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/jackwhelan/celt/entity/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/jackwhelan/celt/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/jackwhelan/celt/entity/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/jackwhelan/celt/main/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/jackwhelan/celt/main/GamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/jackwhelan/celt/tile/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/jackwhelan/celt/tile/Tile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/jackwhelan/celt/tile/TileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/jackwhelan/celt/tile/TileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/map/map1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/map/map1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -80,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669244343227</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Tile class and TileManager&#10;&#10;Added terrain tiles, tile drawing and a basic text based map importing system.">
+      <created>1669315648197</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669315648197</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +110,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Created window, gameloop and basic keyhandling for temporary player placeholder." />
     <MESSAGE value="Added entity and player class.&#10;&#10;Added player sprite and sprite loading for player. Player movement changes sprite accordingly." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added entity and player class.&#10;&#10;Added player sprite and sprite loading for player. Player movement changes sprite accordingly." />
+    <MESSAGE value="Added Tile class and TileManager&#10;&#10;Added terrain tiles, tile drawing and a basic text based map importing system." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Tile class and TileManager&#10;&#10;Added terrain tiles, tile drawing and a basic text based map importing system." />
   </component>
 </project>
