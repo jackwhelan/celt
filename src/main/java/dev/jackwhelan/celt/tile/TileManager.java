@@ -9,8 +9,8 @@ import java.io.InputStreamReader;
 
 public class TileManager {
     GamePanel gp;
-    Tile[] tile;
-    int[][] mapTileNum;
+    public Tile[] tile;
+    public int[][] mapTileNum;
 
     public TileManager(GamePanel gp) {
         this.gp = gp;
@@ -21,12 +21,12 @@ public class TileManager {
     }
 
     public void getTileImage() {
-        tile[Terrain.GRASS] = new Tile("/terrain/terrain_grass.png");
-        tile[Terrain.WATER] = new Tile("/terrain/terrain_water.png");
-        tile[Terrain.DIRT] = new Tile("/terrain/terrain_dirt.png");
-        tile[Terrain.SAND] = new Tile("/terrain/terrain_sand.png");
-        tile[Terrain.TREE] = new Tile("/terrain/terrain_tree.png");
-        tile[Terrain.BRICK] = new Tile("/terrain/terrain_brick.png");
+        tile[Terrain.GRASS] = new Tile("/terrain/terrain_grass.png", false);
+        tile[Terrain.WATER] = new Tile("/terrain/terrain_water.png", true);
+        tile[Terrain.DIRT] = new Tile("/terrain/terrain_dirt.png", false);
+        tile[Terrain.SAND] = new Tile("/terrain/terrain_sand.png", false);
+        tile[Terrain.TREE] = new Tile("/terrain/terrain_tree.png", true);
+        tile[Terrain.BRICK] = new Tile("/terrain/terrain_brick.png", true);
     }
 
     public void loadMap(String mapPath) {

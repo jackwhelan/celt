@@ -7,9 +7,10 @@ import java.util.Objects;
 
 public class Tile {
     public BufferedImage image;
-    public boolean collision = false;
+    public boolean solid = false;
 
-    public Tile(String imagePath) {
+    public Tile(String imagePath, boolean solid) {
+        this.solid = solid;
         try {
             image = ImageIO.read(Objects.requireNonNull(getClass().getResourceAsStream(imagePath)));
         } catch (IOException e) {
